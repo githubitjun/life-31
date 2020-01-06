@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/list/list",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "本地生活",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ee523d",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/assets/home.png",
+      "selectedIconPath": "/assets/home-active.png"
+    },{
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "/assets/message.png",
+      "selectedIconPath": "/assets/message-active.png"
+    },{
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "/assets/profile.png",
+      "selectedIconPath": "/assets/profile-active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
